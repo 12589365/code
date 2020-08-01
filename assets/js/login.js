@@ -72,7 +72,7 @@ $(function () {
                 //保存token
                 localStorage.setItem('token', res.token)
                 //页面跳转
-                location.href = '/第一遍/code/index.html'
+                location.href = '/第1遍/code/index.html'
             },
         })
     })

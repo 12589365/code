@@ -5,7 +5,7 @@ body {
     width: 100%;
     height: 100%;
     /* background-color: aqua; */
-    background: url('/第一遍/code/assets/images/login_bg.jpg') no-repeat center;
+    background: url('/第1遍/code/assets/images/login_bg.jpg') no-repeat center;
     background-size: cover;
 }
 .loginAndRegBox {
@@ -19,7 +19,7 @@ body {
 }
 .title-box {
     height: 60px;
-    background: url('/第一遍/code/assets/images/login_title.png') no-repeat
+    background: url('/第1遍/code/assets/images/login_title.png') no-repeat
         center center;
 }
 .reg-box {
