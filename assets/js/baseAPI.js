@@ -18,7 +18,7 @@ $.ajaxPrefilter(function (options) {
     options.complete = function (res) {
         // console.log(res)
         var data = res.responseJSON
-        console.log(data)
+        // console.log(data)
         // 要和控制台的信息一摸一样
         if (data.status == 1 && data.message == '身份认证失败！') {
             //1.删除token

@@ -18,6 +18,7 @@ $(function () {
     })
 })
 //1.封装函数======获取用户个人信息函数
+// 必须是全局函数，后面的iframe要用
 function getUserinfo() {
     $.ajax({
         method: 'get',
