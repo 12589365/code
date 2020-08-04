@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f3f5;
+}
+.layui-card-header {
+    display: flex;
+    /* 设置主轴方向上子元素对齐方式 */
+    justify-content: space-between;
+    /* 设置侧轴方向上子元素的排列方式 */
+    align-items: center;
+}
+.layui-form {
+    padding-top: 20px;
+    padding-right: 30px;
+}
